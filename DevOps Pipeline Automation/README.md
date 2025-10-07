@@ -1,5 +1,3 @@
-# IntegratedProjects
-
 ### **Multi-Tool DevOps Integration Pipeline**
 
 **Introduction:**
