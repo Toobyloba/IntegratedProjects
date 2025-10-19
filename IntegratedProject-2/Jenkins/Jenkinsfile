@@ -1,17 +1,17 @@
-pipeline{
-	agent any
-	environment{
-	}
-	stages{
-		stage("checkout code from"){
-			steps{
-				checkout scm
-			}
-		}
-		stage("build docker image"){
-			steps{
-				sh "docker image"
-			}
-		}
-	}
+pipeline {
+    agent any
+    environment {
+    }
+    stages {
+        stage("Checkout Code") {
+            steps {
+                checkout scm
+            }
+        }
+        stage("Build Docker Image") {
+            steps {
+                sh "docker build -t writeto shell:${BUILD_NUMBER} ."
+            }
+        }
+    }
 }
