@@ -1,6 +1,7 @@
 pipeline {
     agent any
     environment {
+		name=TOBI
     }
     stages {
         stage("Checkout Code") {
