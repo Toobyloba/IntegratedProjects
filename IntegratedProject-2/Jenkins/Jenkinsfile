@@ -1,0 +1,17 @@
+pipeline{
+	agent any
+	environment{
+	}
+	stages{
+		stage("checkout code from"){
+			steps{
+				checkout scm
+			}
+		}
+		stage("build docker image"){
+			steps{
+				sh "docker image"
+			}
+		}
+	}
+}
