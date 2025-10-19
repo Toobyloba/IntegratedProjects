@@ -5,7 +5,7 @@ RUN javac WriteToShell.java && \
     echo "Main-Class: WriteToShell" > manifest.txt && \
     jar cfm WriteToShell.jar manifest.txt WriteToShell.class
 
-FROM openjdk:17-jre-slim
+FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY --from=builder /app/WriteToShell.jar .
 EXPOSE 8080
