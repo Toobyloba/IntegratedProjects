@@ -1,4 +1,4 @@
-## **Question 3: Cross-Domain Integration**
+**Question 3: Cross-Domain Integration**
 
 You are developing a **microservices monitoring system** where ARM Cortex-M devices collect sensor data and transmit it via UART to a Java application running in a Docker container.
 
