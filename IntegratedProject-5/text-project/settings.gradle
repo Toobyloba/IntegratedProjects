@@ -1,0 +1,2 @@
+rootProject.name = 'text-project'
+include('text-utils', 'text-processor')

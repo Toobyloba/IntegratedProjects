@@ -1,0 +1,7 @@
+package project1;
+
+public class HelloProject1 {
+    public static void main(String[] args) {
+        System.out.println("Hello from Project 1!");
+    }
+}

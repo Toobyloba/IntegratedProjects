@@ -1,0 +1,39 @@
+plugins {
+    id 'application'
+    id 'eclipse'
+}
+
+group = 'tech.hyperedge.app'
+version = '1.0.0'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	implementation project(':text-utils')
+	testImplementation 'junit:junit:4.13.2'
+}
+
+
+test{
+	testLogging{
+		events "passed", "failed", "skipped"
+	}
+}
+
+// Custom task to process sample text
+task processSample {
+    group = 'application'
+    description = 'Processes a sample text and shows results'
+    
+    dependsOn 'classes'
+    
+    doLast {
+        javaexec {
+            classpath = sourceSets.main.runtimeClasspath
+            mainClass = 'com.mycompany.app.TextProcessorApp'
+            args = ['The quick brown fox jumps over the lazy dog']
+        }
+    }
+}

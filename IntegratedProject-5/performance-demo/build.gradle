@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+	id 'eclipse'
+}
+allprojects{
+	repositories{
+		mavenCentral()
+	}
+}
+
+
+subprojects{
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+}

@@ -1,0 +1,28 @@
+plugins {
+    id 'application'
+    id 'eclipse'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Explicitly request Jackson 2.15.0
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
+    
+    // Spring boot brings in Jackson 2.14.2
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.18'
+    
+    // Add another library with different Jackson version
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.500'
+    
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+	mainClass = 'tech.hyperedge.logger.LoggingApp'
+}

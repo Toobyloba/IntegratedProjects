@@ -1,0 +1,29 @@
+plugins{
+	id 'java-library'
+	id 'eclipse'
+}
+
+group = 'tech.hyperedge.utils'
+version = '1.0.0'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies {
+	api 'com.google.code.gson:gson:2.10.1'
+	testImplementation 'junit:junit:4.13.2'
+}
+
+task libInfo {
+	group = 'custom'
+	description = 'Prints information about the library'
+	
+	doLast{
+		println "========================================"
+		println "Library: ${project.name}"
+		println "Version: ${project.version}"
+		println "Group: ${project.group}"
+		println "========================================"
+	}
+}

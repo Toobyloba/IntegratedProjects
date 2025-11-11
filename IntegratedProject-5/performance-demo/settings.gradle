@@ -1,0 +1,14 @@
+rootProject.name = 'performance-demo'
+
+include('app')
+include('library1')
+include('library2')
+include('library3')
+
+// Configure build cache
+buildCache {
+    local {
+        enabled = true
+        directory = new File(rootDir, 'build-cache')
+    }
+}

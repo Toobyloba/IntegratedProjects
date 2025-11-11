@@ -1,0 +1,2 @@
+rootProject.name = 'conflict-resolution-demo'
+include('conflict-app')

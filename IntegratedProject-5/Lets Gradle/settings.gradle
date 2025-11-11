@@ -1,0 +1,2 @@
+rootProject.name = 'Lets Gradle'
+include('project1', 'project2')

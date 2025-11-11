@@ -1,0 +1,49 @@
+plugins {
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0.0'
+
+dependencies {
+    implementation project(':library1')
+    implementation project(':library2')
+    implementation project(':library3')
+    
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+    mainClass = 'com.example.App'
+}
+
+// BAD: Unnecessary manual dependency
+task customReport {
+    doLast {
+        println "Generating custom report"
+    }
+}
+
+task generateConfig {
+    def outputFile = file("$buildDir/generated/config.properties")
+    
+    outputs.file(outputFile)
+    outputs.cacheIf { true }  // Enable caching for this task
+    
+    doLast {
+        outputFile.parentFile.mkdirs()
+        outputFile.text = "app.version=${project.version}\n"
+    }
+}
+
+task useConfig {
+    def configFile = file("$buildDir/generated/config.properties")
+    
+    inputs.file(configFile)
+    dependsOn generateConfig
+    
+    doLast {
+        println "Config contents: ${configFile.text}"
+    }
+}
+
