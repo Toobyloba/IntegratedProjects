@@ -1,0 +1,17 @@
+plugins{
+	id 'java-gradle-plugin'
+	id 'eclipse'
+}
+
+repositories{
+	mavenCentral()
+}
+
+gradlePlugin{
+	plugins{
+		buildInfoPlugin{
+			id = 'build-info'
+			implementationClass = 'tech.hyperedge.plugins.BuildInfoPlugin'
+		}
+	}
+}

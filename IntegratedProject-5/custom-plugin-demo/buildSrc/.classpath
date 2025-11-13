@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
+	<classpathentry kind="lib" path="C:/Users/krx/.gradle/caches/9.2.0/generated-gradle-jars/gradle-api-9.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy/4.0.28/c4f47c0953a4c64b7609c3f8aa2df65f562ff616/groovy-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-ant/4.0.28/b8948f370c1f0e408609e4b102a08b20f00823a2/groovy-ant-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-ant-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-astbuilder/4.0.28/a3fda2db390e575f12ee3602de004aa9683bc90c/groovy-astbuilder-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-astbuilder-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-datetime/4.0.28/f40aefee09af0a586dd1c4ddb14979366085bf5a/groovy-datetime-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-datetime-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-dateutil/4.0.28/be5de31e4ae7004a48460d2de169d28dabbfca1b/groovy-dateutil-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-dateutil-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-groovydoc/4.0.28/1d03856d4e6adbe8408f3b48a3881affe40061ae/groovy-groovydoc-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-groovydoc-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-json/4.0.28/83cb44d17ca6470c882caaca30fde7c63356d096/groovy-json-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-json-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-nio/4.0.28/cd283b36a7c7dcd08ae1bf5047da7972c6fc0b56/groovy-nio-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-nio-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-templates/4.0.28/762dda45429cd643b65efba12d56bbd389107585/groovy-templates-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-templates-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/krx/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-xml/4.0.28/cc479bfa7940a60c6d2c724f5b9d830bc24f598f/groovy-xml-4.0.28-sources.jar" kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/groovy-xml-4.0.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/javaparser-core-3.27.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/kotlin-stdlib-2.2.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/kotlin-reflect-2.2.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/Gradle/gradle-9.2.0/lib/gradle-installation-beacon-9.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/krx/.gradle/caches/9.2.0/generated-gradle-jars/gradle-test-kit-9.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/krx/Dev/IntegratedProjects/IntegratedProject-5/custom-plugin-demo/buildSrc/build/pluginUnderTestMetadata">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
